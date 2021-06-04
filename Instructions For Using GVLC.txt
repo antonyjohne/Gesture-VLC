@@ -1,0 +1,16 @@
+Gesture VLC program allows you to control a media player using hand gestures.
+
+The program uses the Mediapipe Module to track a single hand, and executes the functions through keyboard presses using PyAutoGUI
+
+For the program to work, ensure that the Media Player is running in the foreground.
+Press the 'Esc' key with the Hand Tracking Window open in the foreground to Quit the Program.
+
+Gestures:
+You must first Activate Gesture Recognition using Open Hand before making Gestures.
+
+1. Open Hand: Gesture Recognition Active
+2. Closed Fist: Pause/Play
+3. 1 Finger Open (Swipe Horizontally): Skip Forward/Backward
+4. 2 Finger Open (Swipe Vertically): Volume Increase/Decrease
+5. 3 Finger Open: Mute
+6. Rock Sign: Close Program
