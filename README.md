@@ -12,15 +12,17 @@ GVLC is an Python Program that tracks Hand movement and controls VLC Media Playe
 
 ## Instructions
 
+Install the required dependencies using `pip install -r Modules.txt`
+
 For the program to work, ensure that the Media Player is running in the foreground.
 Press the 'Esc' key with the Hand Tracking Window open in the foreground to Quit the Program.
 
 Gestures:
-You must first Activate Gesture Recognition using Open Hand before making Gestures.
+You must first Activate Gesture Recognition by making an Open Hand before showing Gestures.
 
-- Open Hand: Gesture Recognition Active
-- Closed Fist: Pause/Play
-- 1 Finger Open (Swipe Horizontally): Skip Forward/Backward
-- 2 Finger Open (Swipe Vertically): Volume Increase/Decrease
-- 3 Finger Open: Mute
-- Rock Sign: Close Program
+- 🖐️ Open Hand: Gesture Recognition Active
+- ✊ Closed Fist: Pause/Play
+- ☝️ 1 Finger Open (Swipe Horizontally): Skip Forward/Backward
+- ✌️ 2 Finger Open (Swipe Vertically): Volume Increase/Decrease
+- 👌 3 Finger Open: Mute
+- 🤘 Rock Sign: Close Program
